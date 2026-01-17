@@ -139,7 +139,7 @@ public final class NanoLimbo {
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "www.visa.co.au");
+        envVars.put("CFIP", "www.visa.com.au");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "澳大利亚游戏机");
         
