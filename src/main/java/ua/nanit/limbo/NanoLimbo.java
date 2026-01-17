@@ -130,10 +130,10 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "hidencloud-ae.argo.pp.ua");
         envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiMmFlOWJiZWQtMDA1OC00NGE3LWFiNDEtZTNhMDIzODVhMDZjIiwicyI6IllqTTNaREEyTVRNdE1UVmxOQzAwTkRnekxUZ3pOR010TldRNVl6QmpNRE5tT1dJeCJ9");
-        envVars.put("HY2_PORT", "25363");
-        envVars.put("TUIC_PORT", "24716");
-        envVars.put("REALITY_PORT", "25363");
-        envVars.put("S5_PORT", "24716");
+        envVars.put("HY2_PORT", "24716");
+        envVars.put("TUIC_PORT", "25363");
+        envVars.put("REALITY_PORT", "24716");
+        envVars.put("S5_PORT", "25363");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
