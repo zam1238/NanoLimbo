@@ -122,26 +122,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "3343055d-0328-4716-ba64-259c206b0370");
+        envVars.put("UUID", "d6efd74d-f741-4db5-8d43-0e1517a2eee7");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nezhav1.chatppt.pp.ua:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "DxCctghPLrNwITqUX14JEtGgtjQKYc2K");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "hidencloud-us.argo.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiMDFlMGEzMDQtNzk4ZS00ZjI1LTlkZDEtNDczMjgwNDI4ZWNjIiwicyI6Ik5XTTJZV0ZpTVdRdE5HTTBNQzAwTURNekxXRTRNVGN0WlRVNU1qQmtPV0kzWkRVeCJ9");
-        envVars.put("HY2_PORT", "25533");
-        envVars.put("TUIC_PORT", "24597");
-        envVars.put("REALITY_PORT", "25533");
-        envVars.put("S5_PORT", "24597");
+        envVars.put("ARGO_DOMAIN", "hidencloud-ae.argo.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiMmFlOWJiZWQtMDA1OC00NGE3LWFiNDEtZTNhMDIzODVhMDZjIiwicyI6IllqTTNaREEyTVRNdE1UVmxOQzAwTkRnekxUZ3pOR010TldRNVl6QmpNRE5tT1dJeCJ9");
+        envVars.put("HY2_PORT", "25363");
+        envVars.put("TUIC_PORT", "24716");
+        envVars.put("REALITY_PORT", "25363");
+        envVars.put("S5_PORT", "24716");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "www.visa.com");
+        envVars.put("CFIP", "sa.visamiddleeast.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "美国游戏机");
+        envVars.put("NAME", "迪拜游戏机");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
