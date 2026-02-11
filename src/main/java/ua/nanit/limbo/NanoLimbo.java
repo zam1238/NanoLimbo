@@ -141,7 +141,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "www.visa.fr");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "mineStrator");
+        envVars.put("NAME", "MineStrator");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
