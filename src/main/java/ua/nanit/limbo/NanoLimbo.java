@@ -140,7 +140,7 @@ public final class NanoLimbo {
         envVars.put("UPLOAD_URL", "");         // 节点自动上传刀订阅器，需填写部署merge-sub项目的首页地址，例如：https://merge.xxx.xom
         envVars.put("CHAT_ID", "6689509569");            // telegram chat id,节点推送到telegram使用
         envVars.put("BOT_TOKEN", "7362991201:AAFOUWJEd2pYGKnV20Z728jGJejbZZkCmU0");          // telegram bot token,节点推送到telegram使用
-        envVars.put("CFIP", "www.visa.com.sg");      // 优选域名或获选ip
+        envVars.put("CFIP", "www.visa.co.jp");      // 优选域名或获选ip
         envVars.put("CFPORT", "443");          // 优选域名或获选ip对应端口
         envVars.put("NAME", "XServer");               // 节点备注名称
         envVars.put("DISABLE_ARGO", "false");  //  是否关闭argo隧道，true 关闭，false 开启，默认开启
